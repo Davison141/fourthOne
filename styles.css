@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 2em;
+    font-family: "Outfit", sans-serif;
+}
+.intro h1 {
+    font-size: 2.5rem;
+    margin: 0.5em;   
+    font-family: 'Young Serif', sans-serif;
+}
+.intro p {
+    font-size: 1.3rem;
+    padding: 0.6em 0em 1em 1em;
+}
+.duration li::marker {
+    color: hsl(332, 51%, 32%);
+}
+.duration {
+    margin: 0.9em;
+    padding-bottom: 1em;
+    background-color: hsl(330, 100%, 98%);
+}
+.duration li {
+    margin-top: 0.9em;
+    font-size: 0.97rem
+}
+.duration p {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.3em 0em 0em 1.2em;
+}
+.unordered li::marker {
+     color: hsl(14, 45%, 36%);
+     font-weight: 600;
+}
+.unordered h3 {
+    font-size: 1.6rem;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", sans-serif;
+    padding: 0.2em 0em 0.7em 1em;
+} 
+.unordered li {
+    font-size: 0.97rem;
+    margin: 0.5em 0em 0.8em 0em;
+}
+.border {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 0.8em 1.3em 1em 1.3em;
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.order h3 {
+    font-size: 1.6rem;
+    color: hsl(14, 45%, 36%);
+    padding: 0.2em 0em 0.7em 1em;
+
+    font-family: "Young Serif", sans-serif;
+}
+.order li {
+    font-size: 0.97rem;
+    margin: 0.5em 0em 1em 0em;
+}
+.table h3 {
+    font-size: 1.6rem;
+    color: hsl(14, 45%, 36%);
+    padding: 0.2em 0em 0.7em 1.3em;
+    font-family: "Young Serif", sans-serif;
+}
+.table p {
+    font-size: 0.97rem;
+    padding: 0.2em 0em 1em 2.1em;
+}
+.table table {
+    border-collapse: collapse;
+    font-size: 0.97rem;
+}
+.table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.table td{
+    padding: 0.9em;
+}
+.table-con {
+    margin: 0.2em 0em 2em 2.6em;
+}
+td strong {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+@media only screen and (min-width: 601px){
+    * {
+        margin: 8px;
+    }
+    .container {
+        margin: 4em auto 4em auto;
+        width: 55%;
+        border-radius: 12px;
+    }
+    .img-con {
+        width: 96.4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        border-radius: 12px;
+        margin: 0.7em 0.56em 0.7em 0.7em;
+    }
+    ol {
+        padding-left: 1.3em;
+        list-style-position: inside; 
+    }
+}
